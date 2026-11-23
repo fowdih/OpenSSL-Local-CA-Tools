@@ -1,0 +1,16 @@
+# Generated private keys, certificates, CSRs, and certificate chains
+*.key
+*.csr
+*.crt
+*.pem
+
+# Generated CA database and files
+index.txt*
+serial*
+crlnumber*
+newcerts/
+private/
+
+# Common generated output folders
+/local-ca/
+/server-ssl/
